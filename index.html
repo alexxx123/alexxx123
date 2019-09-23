@@ -5,11 +5,15 @@
 		<meta charset="utf-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-	    <link href="css/principal.css" rel="stylesheet">
+	    <link href="css/home.css" rel="stylesheet">
+
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 	    <script src="js/principal.js"></script>
 
 	    <style type="text/css">
@@ -31,20 +35,60 @@
 			.fondo1{
 				background-image: url("img/background/fondo1.jpg");
 			}
+
+			.manuLink{
+				font-family: Tahoma, Geneva, sans-serif;
+    			font-weight: 500;
+    			font-size: 19px;
+    			color: #ffffff;
+			}
 	    </style>
-		
+	    <nav class="navbar navbar-dark fixed-top">
+	    	<a class="navbar-brand" href="#">
+		    	<img src="img/home/VRECORTADO2.png" width="200" height="30" alt="versatilmagazine" title="versatilmagazine">
+		  	</a>
+  			<ul class="nav justify-content-end">
+			  <li class="nav-item">
+			    <a class="nav-link manuLink" href="#">Noticias</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link manuLink" href="#">Musica</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link manuLink" href="#">Moda</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link manuLink" href="#">Estilo De Vida</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link manuLink" href="#">Estretenimiento</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link manuLink" href="#">Portada</a>
+			  </li>
+			</ul>
+		</nav>
 	</head>
 	<body>
-		<div style="opacity: 0;" class="container-fluid" id="menuContainer">
-			<div class="col-lg-12">
-				<img class="img-responsive pull-right menuItemSize" alt="menu" src="img/svg/menu1.svg" width="60px" height="60px">
-			</div>
-		</div>
+		
 		<div id="portada" class="contenedorFull fondo1">
 			<div style="opacity: 0;" id="tituloPrincipal" class="container-fluid text-center">
 				<div class="row">
 					<div class="col-sm-12">
-						<h1 class="titleFont textTittlePrincipalSize">RuE<span class="titleNumber">28</span></h1><h1 class="titleFont textTittlePrincipalSize"><small>Magazine</small></h1>
+						<img src="img/home/VRECORTADO2.png" width="600" height="88">
+					</div>
+					<div class="col-xs-12 col-sm-12 text-center">
+						<div>
+							
+						</div>
+						<h3><a href="#"><i class="fa fa-facebook"></i></a>
+						<small><a href="#"><i class="fa fa-facebook"></i></a></small>
+						<a href="#"><i class="fa fa-facebook"></i></a></h3>
+
+						<h2><a style="opacity: 0;" id="socialBtn1" class="socialSpace" href="#"><i class="fa fa-facebook"></i></a></h2>
+						<a style="opacity: 0;" id="socialBtn2" class="socialSpace" href="#"><i class="fa fa-facebook"></i></a>
+						<a style="opacity: 0;" id="socialBtn3" class="socialSpace" href="#"><i class="fa fa-facebook"></i></a>
+						<a style="opacity: 0;" id="socialBtn4" class="socialSpace" href="#"><img class="socialIconTam" alt="vimeo" src="img/svg/youtube.png"></a>
 					</div>
 				</div>
 			</div>

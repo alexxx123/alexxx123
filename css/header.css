@@ -1,0 +1,142 @@
+<style type="text/css">
+	.contenedorFull {
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		background-size: cover;
+		background-color: transparent;
+		background-repeat: no-repeat;
+		background-position: 50% 0%;
+		background-attachment: fixed;
+
+	}
+
+	#seccion2{
+		background-color: white;
+	}
+
+	#seccion3{
+		background-color: white;
+	}
+
+	#seccion5{
+		background-color: red;
+		color: white;
+	}
+
+
+	#menuContainer{
+		width: 100%;
+		position: fixed;
+		margin-top: 30px;
+		text-align: right;
+	}
+
+	.titleFont{
+		font-family: "Brush Script MT", cursive;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 500;
+		line-height: 26.4px;
+	}
+
+	.textTittlePrincipalSize{
+		font-size: 100px;
+	}
+
+	#titulo2{
+		font-size: 100px;
+	}
+
+	.titleNumber{
+		font-size: 150px;
+	}
+
+	.socialIcon{
+		display: inline-block;
+	}
+
+	.socialIconTam{
+		width: 50px;
+		height: 50px;
+	}
+
+	.socialSpace{
+		padding: 10px;
+	}
+
+	@media screen and (max-width: 600px) {
+		.titleFont{
+			font-family: "Brush Script MT", cursive;
+			font-style: normal;
+			font-variant: normal;
+			font-weight: 500;
+			line-height: 26.4px;
+		}
+
+		.textTittlePrincipalSize{
+			font-size: 75px;
+		}
+
+		#titulo2{
+			font-size: 75px;
+		}
+
+		.titleNumber{
+			font-size: 125px;
+		}
+
+		.socialIconTam{
+			width: 40px;
+			height: 40px;
+		}
+
+		.socialSpace{
+			padding: 7px;
+			border: 7px;
+		}
+
+		.menuItemSize{
+			width: 50px;
+			height: 50px;
+		}
+	}
+
+	@media screen and (max-width: 400px) {
+		.titleFont{
+			font-family: "Brush Script MT", cursive;
+			font-style: normal;
+			font-variant: normal;
+			font-weight: 500;
+			line-height: 26.4px;
+		}
+
+		.textTittlePrincipalSize{
+			font-size: 50px;
+		}
+
+		#titulo2{
+			font-size: 50px;
+		}
+
+		.titleNumber{
+			font-size: 85px;
+		}
+
+		.socialIconTam{
+			width: 25px;
+			height: 25px;
+		}
+
+		.socialSpace{
+			padding: 5px;
+			border: 5px;
+		}
+
+		.menuItemSize{
+			width: 35px;
+			height: 35px;
+		}
+	}
+
+</style>
